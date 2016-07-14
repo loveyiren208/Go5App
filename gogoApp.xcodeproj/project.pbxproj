@@ -15,6 +15,7 @@
 		444CB3951D35A3F6001EDA25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444CB3931D35A3F6001EDA25 /* LaunchScreen.storyboard */; };
 		444CB3A01D35A3F6001EDA25 /* gogoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 444CB39F1D35A3F6001EDA25 /* gogoAppTests.m */; };
 		444CB3AB1D35A3F6001EDA25 /* gogoAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 444CB3AA1D35A3F6001EDA25 /* gogoAppUITests.m */; };
+		444CB3B91D35A9AD001EDA25 /* 2mapstogpx20160712_223958.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 444CB3B81D35A9AD001EDA25 /* 2mapstogpx20160712_223958.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		444CB3A61D35A3F6001EDA25 /* gogoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gogoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		444CB3AA1D35A3F6001EDA25 /* gogoAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gogoAppUITests.m; sourceTree = "<group>"; };
 		444CB3AC1D35A3F6001EDA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		444CB3B81D35A9AD001EDA25 /* 2mapstogpx20160712_223958.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = 2mapstogpx20160712_223958.gpx; path = ../../../Downloads/2mapstogpx20160712_223958.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		444CB3791D35A3F5001EDA25 = {
 			isa = PBXGroup;
 			children = (
+				444CB3B81D35A9AD001EDA25 /* 2mapstogpx20160712_223958.gpx */,
 				444CB3841D35A3F5001EDA25 /* gogoApp */,
 				444CB39E1D35A3F6001EDA25 /* gogoAppTests */,
 				444CB3A91D35A3F6001EDA25 /* gogoAppUITests */,
@@ -207,6 +210,7 @@
 				TargetAttributes = {
 					444CB3811D35A3F5001EDA25 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = H3DL6G5LXS;
 					};
 					444CB39A1D35A3F6001EDA25 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -245,6 +249,7 @@
 			files = (
 				444CB3951D35A3F6001EDA25 /* LaunchScreen.storyboard in Resources */,
 				444CB3921D35A3F6001EDA25 /* Assets.xcassets in Resources */,
+				444CB3B91D35A9AD001EDA25 /* 2mapstogpx20160712_223958.gpx in Resources */,
 				444CB3901D35A3F6001EDA25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,10 +420,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = gogoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xiaonan.gogoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -426,10 +434,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = gogoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xiaonan.gogoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
